@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
 	{month: 9, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" },
 	{month: 10, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" },
 	{month: 11, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" },
-	{month: 12, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" },
+	{month: 12, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" }
     ];
     // --- DATA STORE ---
     const pageData = {
