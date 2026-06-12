@@ -56,6 +56,21 @@ document.addEventListener('DOMContentLoaded', () => {
 	{month: 11, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" },
 	{month: 12, credit_spend_totally: "0 نقطة", total_credit:"0 نقطة" }
     ];
+	const monthNames= [
+        
+        {month: 1, name: "يناير" },
+	{month: 2, name: "فبراير" },
+	{month: 3, name: "مارس" },
+	{month: 4, name: "أبريل" },
+	{month: 5, name: "مايو" },
+	{month: 6, name: "يونيو" },
+	{month: 7, name: "يوليو" },
+	{month: 8, name: "أغسطس" },
+	{month: 9, name: "سبتمبر" },
+	{month: 10, name: "أكتوبر" },
+	{month: 11, name: "نوفمبر" },
+	{month: 12, name: "ديسمبر" }
+    ];
     // --- DATA STORE ---
     const pageData = {
         home: {
@@ -78,6 +93,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 1)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -119,6 +140,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 2)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -161,6 +188,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 3)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -203,6 +236,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 4)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -245,6 +284,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 5)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -287,6 +332,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 6)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -329,6 +380,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 7)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -371,6 +428,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 8)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -413,6 +476,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 9)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -455,6 +524,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 10)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -497,6 +572,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 11)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
@@ -539,6 +620,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     image: '',
 					description: `
 					<div class="table-responsive">
+					${monthNames
+    .filter(monthList => monthList.month === 12)
+    .map(monthList => `
+            <h2>${monthList.name}</h2>
+    `).join('')
+}
                     <table class="report-table">
                         <thead>
                             <tr>
