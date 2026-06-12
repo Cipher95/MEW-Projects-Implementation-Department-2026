@@ -170,7 +170,7 @@ main#content-area.fade-out { opacity: 0; }
     background-color: var(--mmsf-dark-blue);
     border-top: 3px solid var(--mmsf-light-blue);
     font-family: var(--font-body);
-    font-size: 20px;
+    font-size: 17px;
     font-weight: bold;
 }
 
