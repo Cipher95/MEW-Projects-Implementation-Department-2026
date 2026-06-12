@@ -60,18 +60,17 @@ body {
     background-color: var(--mmsf-gold);
     color: var(--mmsf-text-black);
     padding: 5px 10px;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .header-left {
     text-align: left;
-    font-size: 12px;
+    font-size: 16px;
 }
 /*#clock { font-size: 14px; }*/
 
-#clock { font-size: 20px; }
+#clock { font-size: 18px; }
 
-#date-day { font-size: 20px; }
 
 /* --- Main Content Area --- */
 main#content-area {
@@ -338,14 +337,16 @@ main#content-area.fade-out { opacity: 0; }
         max-width: 250px;
     }
     .mmsf-header, .mmsf-status-bar {
-        font-size: 12px;
+        font-size: 16px;
     }
 	#main-title {
-		font-size: 12px;
+		font-size: 16px;
 	}
-	#clock { font-size: 12px; }
-
-#date-day { font-size: 12px; }
+	.header-left {
+    font-size: 16px;
+}
+	#clock { font-size: 16px; }
+	
 }
 
 @media (max-width: 600px) {
