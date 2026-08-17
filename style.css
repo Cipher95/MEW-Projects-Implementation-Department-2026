@@ -174,8 +174,9 @@ main#content-area.fade-out { opacity: 0; }
     font-weight: bold;
 }
 
-
-
+.center{
+	margin: 0 auto;
+}
 
 /* --- Reports Page Specific Styles --- */
 .reports-nav-container {
