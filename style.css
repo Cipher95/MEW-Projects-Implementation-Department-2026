@@ -98,7 +98,7 @@ main#content-area.fade-out { opacity: 0; }
     height: auto;
     display: block;
 	border: 2px solid var(--mmsf-light-blue);
-    background-color: white;
+    background-color: var(--mmsf-gold);
 }
 
 .content-text {
