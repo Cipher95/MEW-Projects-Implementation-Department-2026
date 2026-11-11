@@ -849,4 +849,9 @@ document.addEventListener('DOMContentLoaded', () => {
     switchContent('home');
     updateClock();
     setInterval(updateClock, 1000);
+
+	// Console Log
+	console.log("مصمم الموقع (حمد ي.).");
+	//console.table(reportsList);
+	//console.table(total);
 });
